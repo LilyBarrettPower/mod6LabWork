@@ -1,0 +1,5 @@
+/* Styling for the images in the Cat component */
+.image {
+    height: auto;
+    width: 150px;
+}
