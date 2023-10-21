@@ -7,6 +7,9 @@ import BigCats from '../components/BigCats'
 import SingleCats from '../components/SingleCats'
 // import the SingleCats component
 import Emoji from '../components/Emoji'
+// import the Emoji component
+import Caluclator from '../components/Calculator'
+// import the calculator component
 
 function App() {
 
@@ -26,7 +29,11 @@ function App() {
       <SingleCats/>
       {/* Call the SingleCats component which uses the Cat component */}
 
-      <Emoji/>
+      <Emoji />
+      {/* render the enoji component */}
+      
+      <Caluclator />
+      {/* render the calculator component  */}
     </>
   )
 }

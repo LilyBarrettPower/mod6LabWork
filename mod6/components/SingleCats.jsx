@@ -28,6 +28,7 @@ function SingleCats() {
                 // create the image
                 image = {cat.image}
             />
+            
         ));
     return (
         <>
