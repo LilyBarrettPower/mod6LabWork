@@ -36,7 +36,7 @@ function Caluclator() {
 
     return (
         <>
-            <h2>Calculator:</h2>
+            <h2>Calculator: (question 6)</h2>
             <input type="number" value={num1} onChange={(e) => setNum1(parseFloat(e.target.value))} />
             {/* create an input field for num1, onChnage is triggered when the user inputs a value. the value is converted to a floating point number */}
             <input type="number" value={num2} onChange={(e) => setNum2(parseFloat(e.target.value))} />

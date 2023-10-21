@@ -16,6 +16,7 @@ const Emoji = () => {
     };
     return (
         <div>
+            <h2>Emoji component, question 3</h2>
             <img className="Emoji image" src={emoji === 'happy' ? happyEmoji : sadEmoji} alt="Emoji" />
             {/* if the mood is happy, display the happyEmoji, if not display the sadEmoji */}
             <p>Current mood: {emoji}</p>

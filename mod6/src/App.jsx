@@ -18,7 +18,7 @@ function App() {
       {/* QUESTION 1: */}
       <Greeting name="Lily">
         {/* Call the greeting component with the name prop as Lily */}
-        Hello Lily!
+        Hello Lily! - this is a child of the Greeting component!
         {/* Pass Hello Lily! as a child element to the greeting component */}
       </Greeting>
 

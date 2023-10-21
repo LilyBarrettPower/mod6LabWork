@@ -32,6 +32,7 @@ function SingleCats() {
         ));
     return (
         <>
+            <h2>Single cat component for rendering single cats - part of question 2</h2>
             <ul>
                 {/* render catItems map */}
                 {catItems}

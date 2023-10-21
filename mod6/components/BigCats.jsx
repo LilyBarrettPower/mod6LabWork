@@ -79,6 +79,7 @@ function BigCats() {
     
     return (
         <>
+            <h2>Big cats component - questions 2, 4 and 5</h2>
             <ul>
                 {catItems}
                 {/* Render the variable that has the cat map  */}
