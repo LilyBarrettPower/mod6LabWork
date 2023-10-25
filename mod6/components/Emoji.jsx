@@ -21,7 +21,7 @@ const Emoji = () => {
             {/* if the mood is happy, display the happyEmoji, if not display the sadEmoji */}
             <p>Current mood: {emoji}</p>
             {/* display the emoji here */}
-            <button onClick={handleMood}>Change mood!</button>
+            <button className="button" onClick={handleMood}>Change mood!</button>
             {/* Add a button to toggle between the moods  */}
         </div>
     );
